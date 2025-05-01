@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>iComidas - Fazer Pedido</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="id-titulo-pedido">Monte seu Pedido</h1>
+
+  <div id="id-item-pedido">
+    <label for="id-quantidade">Quantidade:</label>
+    <input type="number" id="id-quantidade" value="1" min="1">
+
+    <label for="id-acrescimos">Acréscimos:</label>
+    <input type="text" id="id-acrescimos" placeholder="Ex: Bacon extra">
+
+    <label for="id-observacoes">Observações:</label>
+    <textarea id="id-observacoes" placeholder="Sem cebola, ponto da carne..."></textarea>
+  </div>
+
+  <div id="id-endereco-pagamento">
+    <label for="id-endereco">Endereço de entrega:</label>
+    <input type="text" id="id-endereco" placeholder="Rua Exemplo, 123">
+
+    <label for="id-pagamento">Forma de pagamento:</label>
+    <select id="id-pagamento">
+      <option value="credito">Cartão de Crédito</option>
+      <option value="debito">Cartão de Débito</option>
+      <option value="pix">PIX</option>
+    </select>
+  </div>
+
+  <div>
+    <button id="id-btn-confirmar" onclick="location.href='preparando.html'">Confirmar Pedido</button>
+    <button id="id-btn-cancelar" onclick="alert('Pedido cancelado com sucesso.')">Cancelar Pedido</button>
+  </div>
+</body>
+</html>
