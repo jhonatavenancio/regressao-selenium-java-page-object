@@ -1,4 +1,4 @@
-# 🍽️ iComida - Testes Automatizados com Java + Selenium
+# 🍽️ Testes Automatizados com Java + Selenium (Page Object)
 
 Este projeto realiza testes automatizados em um sistema de **delivery de comida** semelhante ao iFood, utilizando as ferramentas **Java**, **Selenium WebDriver**, **JUnit 5** e **Faker** para geração de dados dinâmicos. Os testes são estruturados com o padrão **Page Object Model (POM)**, promovendo legibilidade e reutilização de código.
 
