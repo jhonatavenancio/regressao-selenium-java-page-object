@@ -3,10 +3,10 @@
 Este projeto realiza testes automatizados em um sistema de **delivery de comida** semelhante ao iFood, utilizando as ferramentas **Java**, **Selenium WebDriver**, **JUnit 5** e **Faker** para geração de dados dinâmicos. Os testes são estruturados com o padrão **Page Object Model (POM)**, promovendo legibilidade e reutilização de código.
 
 > 🔗 **Site do sistema testado:**  
-> https://creative-boba-f63c57.netlify.app/restaurant/qa-king
-> (Código do sistema no repositório)
-
+> https://creative-boba-f63c57.netlify.app/restaurant
 ---
+![image](https://github.com/user-attachments/assets/88dbf1be-08f7-4263-8f02-cd0783f147da)
+
 
 ## 📌 Funcionalidades testadas
 
